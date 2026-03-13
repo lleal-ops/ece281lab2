@@ -56,52 +56,52 @@ begin
     test_process : process
      begin
         i_hex <= x"0"; wait for 10 ns;
-        assert w_seg_n = "1000000" report "ERROR on 0" severity failure;
+        assert o_seg_n = "1000000" report "ERROR on 0" severity failure;
         
         i_hex <= x"1"; wait for 10 ns;
-        assert w_seg_n = "1111001" report "ERROR on 1" severity failure;
+        assert o_seg_n = "1111001" report "ERROR on 1" severity failure;
         
         i_hex <= x"2"; wait for 10 ns;
-        assert w_seg_n = "0100100" report "ERROR on 2" severity failure;
+        assert o_seg_n = "0100100" report "ERROR on 2" severity failure;
         
         i_hex <= x"3"; wait for 10 ns;
-        assert w_seg_n = "0110000" report "ERROR on 3" severity failure;
+        assert o_seg_n = "0110000" report "ERROR on 3" severity failure;
         
         i_hex <= x"4"; wait for 10 ns;
-        assert w_seg_n = "0011001" report "ERROR on 4" severity failure;
+        assert o_seg_n = "0011001" report "ERROR on 4" severity failure;
         
         i_hex <= x"5"; wait for 10 ns;
-        assert w_seg_n = "0010010" report "ERROR on 5" severity failure;
+        assert o_seg_n = "0010010" report "ERROR on 5" severity failure;
         
         i_hex <= x"6"; wait for 10 ns;
-        assert w_seg_n = "0000010" report "ERROR on 6" severity failure;
+        assert o_seg_n = "0000010" report "ERROR on 6" severity failure;
         
         i_hex <= x"7"; wait for 10 ns;
-        assert w_seg_n = "1111000" report "ERROR on 7" severity failure;
+        assert o_seg_n = "1111000" report "ERROR on 7" severity failure;
         
         i_hex <= x"8"; wait for 10 ns;
-        assert w_seg_n = "0000000" report "ERROR on 8" severity failure;
+        assert o_seg_n = "0000000" report "ERROR on 8" severity failure;
         
         i_hex <= x"9"; wait for 10 ns;
-        assert w_seg_n = "0011000" report "ERROR on 9" severity failure;
+        assert o_seg_n = "0011000" report "ERROR on 9" severity failure;
         
         i_hex <= x"A"; wait for 10 ns;
-        assert w_seg_n = "0001000" report "ERROR on A" severity failure;
+        assert o_seg_n = "0001000" report "ERROR on A" severity failure;
         
         i_hex <= x"B"; wait for 10 ns;
-        assert w_seg_n = "0000011" report "ERROR on B" severity failure;
+        assert o_seg_n = "0000011" report "ERROR on B" severity failure;
         
         i_hex <= x"C"; wait for 10 ns;
-        assert w_seg_n = "0100111" report "ERROR on C" severity failure;
+        assert o_seg_n = "0100111" report "ERROR on C" severity failure;
         
         i_hex <= x"D"; wait for 10 ns;
-        assert w_seg_n = "0100001" report "ERROR on D" severity failure;
+        assert o_seg_n = "0100001" report "ERROR on D" severity failure;
         
         i_hex <= x"E"; wait for 10 ns;
-        assert w_seg_n = "0000110" report "ERROR on E" severity failure;
+        assert o_seg_n = "0000110" report "ERROR on E" severity failure;
         
         i_hex <= x"F"; wait for 10 ns;
-        assert w_seg_n = "0001110" report "ERROR on F" severity failure;
+        assert o_seg_n = "0001110" report "ERROR on F" severity failure;
         
         wait;
         
