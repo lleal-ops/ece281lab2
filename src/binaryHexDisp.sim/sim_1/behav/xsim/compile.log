@@ -2,3 +2,21 @@ INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Luisa.De_Moura_Le/Documents
 INFO: [VRFC 10-3107] analyzing entity 'sevenseg_decoder'
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'sevenseg_decoder_tb'
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:59]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:62]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:65]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:68]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:71]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:74]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:77]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:80]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:83]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:86]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:89]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:92]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:95]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:98]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:101]
+ERROR: [VRFC 10-2989] 'w_seg_n' is not declared [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:104]
+ERROR: [VRFC 10-9458] unit 'behavioral' is ignored due to previous errors [C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd:37]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/C28Luisa.De_Moura_Le/Documents/ECE281/ece281lab2/src/sevenseg_decoder_tb.vhd' is ignored due to errors
